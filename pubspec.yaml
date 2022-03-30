@@ -1,0 +1,87 @@
+name: riderbuyers
+description: Ridebuyers application.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+4
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.1.0
+  intl: #^0.17.0 #for date time to string formatting
+  flutter_bloc: #^7.1.0 #for blocks designing
+  http: #^0.12.1 #for http communication
+  shared_preferences: #for storing local data
+  equatable:
+  bloc_concurrency:
+  carousel_slider:
+  path_provider:
+  back_button_interceptor:
+  flutter_keyboard_visibility: ^5.1.0
+  flutter_launcher_icons:
+  internet_connection_checker: ^0.0.1+3
+  permission_handler: ^9.2.0
+  line_icons: ^2.0.1
+  uuid: 3.0.5 #we need to use unqiue identifier library but it is not working
+  rename: ^2.0.1
+  hydrated_bloc:
+  image_picker:
+  firebase_core: ^1.13.1
+  firebase_messaging: ^11.2.8
+  mask_text_input_formatter: ^2.1.0
+  flutter_local_notifications: ^9.3.3
+  camera: ^0.9.4+16
+  flutter_svg:
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "lib/core/assets/app_icon.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/core/assets/images/1_splash.jpg
+    - lib/core/assets/images/2_signup.jpg
+    - lib/core/assets/images/3_login.jpg
+    - lib/core/assets/images/4_welcome_car.jpg
+    - lib/core/assets/images/5_car_details.jpg
+    - lib/core/assets/images/6_car_frontview.jpg
+    - lib/core/assets/images/8_car_frontview_clicked.jpg
+    - lib/core/assets/images/9_car_back_view.jpg
+    - lib/core/assets/images/12_car_right_view.jpg
+    - lib/core/assets/images/15_car_left_view.jpg
+    - lib/core/assets/images/18_car_meter.jpg
+    - lib/core/assets/images/19_car_tire.jpg
+    - lib/core/assets/images/11_car_back_viewclicked.jpg
+    - lib/core/assets/images/14_car_right_viewclicked.jpg
+    - lib/core/assets/images/17_car_left_viewclicked.jpg
+    - lib/core/assets/images/20_car_meterclicked.jpg
+    - lib/core/assets/images/21_notification.jpg
+    - lib/core/assets/images/frontview.jpg
+    - lib/core/assets/images/buttons/login_button_icon.jpg
+    - lib/core/assets/images/buttons/signin_button_icon.jpg
+    - lib/core/assets/images/buttons/submit_card_details_button_icon.jpg
+    - lib/core/assets/images/buttons/submit_button_icon.jpg
+    - lib/core/assets/images/buttons/upload_button_icon.jpg
+    - lib/core/assets/images/buttons/save&next_button_icon.jpg
+    - lib/core/assets/images/buttons/whiteupload_button_icon.jpg
+    - lib/core/assets/images/buttons/new_notification_icon.jpg
+    - lib/core/assets/images/buttons/accept_notification_icon.jpg
+    - lib/core/assets/images/buttons/decline_notification_icon.jpg
+    - lib/core/assets/images/buttons/clickcamera.jpg
+    - lib/core/assets/images/buttons/cancelcamera.jpg
+    - lib/core/assets/images/svg/carbackview.svg
+    - lib/core/assets/images/svg/carfrontview.svg
+    - lib/core/assets/images/svg/carleftview.svg
+    - lib/core/assets/images/svg/carmeter.svg
+    - lib/core/assets/images/svg/carrightview.svg
+    - lib/core/assets/images/svg/cartire.svg
